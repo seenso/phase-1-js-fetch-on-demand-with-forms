@@ -191,6 +191,14 @@ by our event, a `<form>` in our case.
 ```js
 event.target
 // => <form>..</form>
+//from console:
+  /*
+  <form>
+      <label for="searchByID">Search By ID</label>
+      <input id="searchByID" type="text" placeholder="Enter ID here"/>
+      <input type="submit" />
+    </form>
+  */
 ```
 
 `event.target` has a property, `children`, that returns an
